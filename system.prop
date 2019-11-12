@@ -1,0 +1,36 @@
+#
+# from device/sprd/sharkle/sp9832e_fs097_go/system.prop
+#
+# Default density config, 240 for WVGA
+#ro.sf.lcd_density=240
+#ro.sf.lcd_width=54
+#ro.sf.lcd_height=96
+ro.product.hardware=sp9832e_fs097_go
+# Set Opengl ES Version
+#ro.opengles.version=196609
+
+# ro.fm.chip.port.UART.androidm=true
+
+# FRP property for pst device
+ro.frp.pst=/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/persist
+
+#enable audio nr tuning
+ro.audio_tunning.nr=1
+
+# Disable the lock screen wallpaper
+ro.lockwallpaper.enable=false
+
+#set low battery level for disable flash
+persist.sys.cam.battery.flash = 10
+
+#Enable sdcardfs feature
+ro.sys.sdcardfs=true
+persist.sys.sdcardfs=force_on
+
+#enable hdr+normal pic mode
+persist.sys.cam.normalhdr=true
+
+#Disable assistant touch
+ro.product.assistanttouch=false
+
+#
